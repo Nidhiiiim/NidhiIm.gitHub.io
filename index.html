@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Portfolio</title>
+
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/owl.carousel.min.css" rel="stylesheet">
+
+        <link href="css/owl.theme.default.min.css" rel="stylesheet">
+
+        <link href="css/style.css" rel="stylesheet">
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    </head>
+    
+    <body id="top">
+    
+        <main>
+
+            <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-lg">
+                <div class="container">
+                    <a class="navbar-brand mx-auto d-lg-none" href="index.html">
+                        Nidhi Mishra
+                        <strong class="d-block">Information Analyst</strong>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#hero">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                           
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#timeline">Journey</a>
+                            </li>
+
+                            <a class="navbar-brand d-none d-lg-block" href="index.html">
+                                Nidhi Mishra
+                                <strong class="d-block">Information Analyst</strong>
+                            </a>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#reviews">Projects</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#booking">Hire me</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+
+            <section class="hero" id="hero">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/slider/1.jpg" alt="img" class="img-fluid" alt="">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="images/slider/2.jpg" alt="img" class="img-fluid" alt="">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <img src="images/slider/3.jpg" class="img-fluid" alt="img">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="heroText d-flex flex-column justify-content-center">
+
+                                <h1 class="mt-auto mb-2">
+                                    I'M 
+                                    <div class="animated-info">
+                                        <span class="animated-item">Developer</span>
+                                        <span class="animated-item">Coder</span>
+                                        <span class="animated-item">Analyst</span>
+                                    </div>
+                                </h1>
+
+                                <p class="mb-4"> As an individual deeply entrenched in the world of technology, <br> 
+                                    I embody the archetype of the <span style="font-weight: bold;">Professional and Expert.</span> <br>
+                                    My portfolio is a testament to years of experience and dedication in the field of computer science, showcasing an extensive understanding of various programming languages, software development, and intricate problem-solving capabilities</p>
+
+                                <div class="heroLinks d-flex flex-wrap align-items-center">
+                                    <a class="custom-link me-4" href="#about" data-hover="Me">Call</a>
+
+                                    <p class="contact-phone mb-0"><i class="bi-phone"></i> +1 551-263-9993</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-padding" id="about">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <h2 class="mb-lg-3 mb-3">About Section</h2>
+                            <h4 class="mb-lg-3 mb-3">Personal Overview</h4>
+
+                            <p>With a profound passion for computer science, I've delved into various domains including software development, algorithm design, and machine learning. </p>
+
+                            <p>I'm adept in languages such as Python, JavaScript, and Java, and I enjoy tinkering with new technologies to create groundbreaking solutions. 
+                               </p>
+                        </div>
+                        <style>
+                            .featured-circle {
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.image-container img {
+    display: block;
+    width: 100%; 
+    height: auto; 
+}
+
+.featured-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: greenyellow;
+    text-align: center;
+}
+
+                        </style>
+
+<div class="col-lg-4 col-md-5 col-12 mx-auto">
+    <div class="featured-circle bg-white shadow-lg d-flex justify-content-center align-items-center">
+        <div class="image-container">
+            <img src="images/projects/python.png" class="img-fluid" alt="">
+            <p class="featured-text">
+                <span class="featured-number">4</span> Years<br> of Experience
+            </p>
+        </div>
+    </div>
+</div>
+
+
+                    </div>
+                </div>
+            </section>
+
+            
+            <section class="" id="gallery">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-md-12 col-12">
+                            <h2 class="mb-lg-3 mb-3">Projects & Skill Set
+                                </h2>
+                            <h4 class="mb-lg-3 mb-3"> Showcase</h4>
+
+                            <p>From developing intuitive web applications during my undergraduate and interships to contributing as a Application Development Analyst <br> Dive into my GitHub repositories to explore the code for portfolio. <a class="custom-link me-4" href="https://github.com/Nidhiiiim" target="_blank" data-hover="Here">Click</a></p>
+
+                           
+                        </div>
+
+                      
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="gallery">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-3 ps-0 " data-aos="fade-right">
+                            <img src="images/projects/python.png" style="min-height: 210px;" class="img-fluid galleryImage" alt="image" title="get a vaccine for yourself">
+                        </div>
+                        <div class="col-lg-3 col-3 ps-0" data-aos="fade-up">
+                            <img src="images/projects/Data.jpeg"  style="min-height: 210px;" class="img-fluid galleryImage" alt="image" title="get a vaccine for yourself">
+                        </div> 
+                        <div class="col-lg-3 col-3 ps-0" data-aos="fade-up">
+                            <img src="images/projects/SQL.jpeg" style="min-height: 210px;" class="img-fluid galleryImage" alt="image" title="get a vaccine for yourself">
+                        </div> 
+                        <div class="col-lg-3 col-3 ps-0" data-aos="fade-left">
+                            <img src="images/projects/SQL.jpg"  style="max-height: 210px; min-height: 210px;" class="img-fluid galleryImage" alt="image" title="get a vaccine for yourself">
+                        </div>
+                        <div class="col-lg-3 col-3 ps-0" data-aos="fade-left">
+                            <img src="images/projects/machine.jpg"  style="max-height: 210px; min-height: 210px;" class="img-fluid galleryImage" alt="image" title="get a vaccine for yourself">
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-padding pb-0" id="timeline">
+                <div class="container">
+                    <div class="row">
+
+                        <h3 class="text-center mb-lg-5 mb-4">EMPLOYMENT JOURNEY</h3>
+                        
+                        <div class="timeline">
+                            <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes" data-aos="flip-left">
+                                <div class="col-9 col-md-5 me-md-4 me-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg">
+                                    <h3 class=" text-light">Explore My Resume</h3>
+
+                                    <p>Click <a href="https://drive.google.com/file/d/1swd5ChQY4dWCMS8UsXzoYOFsFfEJiVFx/view?usp=sharing" target="_blank" style="color: blue; font-weight: bold;">Here </a> to access my comprehensive resume and dive deeper into my professional experience, skills, and qualifications.</p>
+                                </div>
+
+                                <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
+                                    <i class="bi-patch-check-fill timeline-icon"></i>
+                                </div>
+
+                                <div class="col-9 col-md-5 ps-md-3 ps-lg-0 order-1 order-md-3 py-4 timeline-date">
+                                    <time style="font-size: 20PX; font-weight: bold;">1. RESUME</time>
+                                </div>
+                            </div>
+
+                            <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes my-lg-5 my-4" data-aos="flip-right">
+                                <div class="col-9 col-md-5 ms-md-4 ms-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg">
+                                    <h3 class=" text-light">Connect on LinkedIn</h3>
+
+                                    <p>  Visit my <a href="https://www.linkedin.com/in/nidhiim/" target="_blank" style="color: blue;  font-weight: bold;">LinkedIn profile </a>  to explore my professional network, endorsements, and a more extensive overview of my career journey.</p>
+                                </div>
+
+                                <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
+                                    <i class="bi-book timeline-icon"></i>
+                                </div>
+
+                                <div class="col-9 col-md-5 pe-md-3 pe-lg-0 order-1 order-md-3 py-4 timeline-date">
+                                    <time style="font-size: 20PX; font-weight: bold;">2. LinkedIn</time>
+                                </div>
+                            </div>
+
+                            <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes" data-aos="flip-up">
+                                <div class="col-9 col-md-5 me-md-4 me-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg">
+                                    <h3 class=" text-light">Get to Know Me</h3>
+
+                                    <p style="text-align: left;">Discover more about me beyond my professional achievements. <br> Learn about my educational background, personal interests related to my profession, and unique skills that set me apart.</p>
+                                </div>
+
+                                <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
+                                    <i class="bi-file-medical timeline-icon"></i>
+                                </div>
+
+                                <div class="col-9 col-md-5 ps-md-3 ps-lg-0 order-1 order-md-3 py-4 timeline-date">
+                                    <time style="font-size: 20PX; font-weight: bold;">3. Personal Background </time>
+                                </div>
+                            </div>
+
+
+                            
+                            <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes my-lg-5 my-4" data-aos="flip-down">
+                                <div class="col-9 col-md-5 ms-md-4 ms-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg">
+                                    <h3 class=" text-light">Contact Information</h3>
+
+                                    <p>  Connect with me on LinkedIn for a deeper insight into my professional journey. For direct communication or inquiries, reach out at <a href="" style=" font-weight: bold;">nidhimish005@gmail.com</a></p>
+                                </div>
+
+                                <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
+                                    <i class="bi-book timeline-icon"></i>
+                                </div>
+
+                                <div class="col-9 col-md-5 pe-md-3 pe-lg-0 order-1 order-md-3 py-4 timeline-date">
+                                    <time style="font-size: 20PX; font-weight: bold;">4. Professional Email</time>
+                                </div>
+                            </div>
+
+
+                            
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-padding pb-0" id="reviews">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <h2 class="text-center mb-lg-5 mb-4">Feedbacks, reviews & more</h2>
+
+                            <div class="owl-carousel reviews-carousel">
+
+                                <figure class="reviews-thumb d-flex flex-wrap align-items-center rounded">
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star"></i>
+                                    </div>
+
+                                    <p class="text-primary d-block mt-2 mb-0 w-100"><strong>Adaptive Lerner</strong></p>
+
+                                    <p class="reviews-text w-100"> Nidhi has been an invaluable addition to team as a fresher, providing unparalleled technological solutions tailored to our business needs. his expertise in developing data pipelines and deriving insigtful analytics has significantly streamlined our operations, ensuring efficiency and reliability. The commitment to excellence and a client-centric approach make them a standout choice for any business seeking top-tier IT services</p>
+
+                                    <img src="images/reviews/person3.png" class="img-fluid reviews-image" alt="">
+
+                                    <figcaption class="ms-4">
+                                        <strong>Sonia Antony</strong>
+
+                                        <span class="text-muted">Supervisor</span>
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="reviews-thumb d-flex flex-wrap align-items-center rounded">
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star"></i>
+                                    </div>
+
+                                    <p class="text-primary d-block mt-2 mb-0 w-100"><strong>Cares for everyone!</strong></p>
+
+                                    <p class="reviews-text w-100"> Nidhi's commitment to excellence is rivaled only by their genuine care for each client. Her dedication and attentiveness to our needs surpassed our expectations, ensuring that every aspect of our technological requirements was not only met but exceeded. His caring approach sets them apart in an industry where personalized attention can make all the difference.</p>
+
+                                    <img src="images/reviews/person2.png" class="img-fluid reviews-image" alt="">
+
+                                    <figcaption class="ms-4">
+                                        <strong>Yash Gulve</strong>
+
+                                        <span class="text-muted">Colleague</span>
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="reviews-thumb d-flex flex-wrap align-items-center rounded">
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                    </div>
+
+                                    <p class="text-primary d-block mt-2 mb-0 w-100"><strong>Great services!</strong></p>
+
+                                    <p class="reviews-text w-100">The services offered by Nidhi are nothing short of exceptional. Her dedication to delivering top-quality solutions tailored to our needs has been truly commendable. I am  extremely pleased with the professionalism, efficiency, and overall quality of the services provided</p>
+
+                                    <img src="images/reviews/person2.png" class="img-fluid reviews-image" alt="">
+
+                                    <figcaption class="ms-4">
+                                        <strong>Glynn Rockfeller Jr.</strong>
+
+                                        <span class="text-muted">Client</span>
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="reviews-thumb d-flex flex-wrap align-items-center rounded">
+                                    <div class="reviews-stars">
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star-fill"></i>
+                                        <i class="bi-star"></i>
+                                        <i class="bi-star"></i>
+                                    </div>
+
+                                    <p class="text-primary d-block mt-2 mb-0 w-100"><strong>Best computer troubleshooting</strong></p>
+
+                                    <p class="reviews-text w-100">Nidhi excels in computer troubleshooting. Their team's expertise in diagnosing and resolving complex pipeline issues is truly remarkable. Her quick response and efficient problem-solving have been invaluable, ensuring our systems operate seamlessly. I highly recommend their troubleshooting services for their exceptional skill and prompt resolution of technical challenges.</p>
+
+                                    <img src="images/reviews/person2.png" class="img-fluid reviews-image" alt="">
+
+                                    <figcaption class="ms-4">
+                                        <strong>Navneet Bhattar</strong>
+
+                                        <span class="text-muted">Manager</span>
+                                    </figcaption>
+                                </figure>
+                               
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-padding" id="booking">
+                <div class="container">
+                    <div class="row">
+                    
+                        <div class="col-lg-8 col-12 mx-auto">
+                            <div class="booking-form">
+                                
+                                <h2 class="text-center mb-lg-3 mb-2">Hire Me</h2>
+                            
+                                <form role="form" action="#booking" method="post">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-12">
+                                            <input type="text" name="name" id="name" class="form-control" placeholder="Full name" required>
+                                        </div>
+
+                                        <div class="col-lg-6 col-12">
+                                            <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required>
+                                        </div>
+
+                                        <div class="col-lg-6 col-12">
+                                            <input type="telephone" name="phone" id="phone" class="form-control" placeholder="Phone: 123-456-7890">
+                                        </div>
+
+                                        <div class="col-lg-6 col-12">
+                                            <input type="date" name="date" id="date" value="" class="form-control">
+                                            
+                                        </div>
+
+                                        <div class="col-12">
+                                            <textarea class="form-control" rows="5" id="message" name="message" placeholder="Additional Message"></textarea>
+                                        </div>
+
+                                        <div class="col-lg-3 col-md-4 col-6 mx-auto">
+                                            <button type="submit" class="form-control" id="submit-button">Send Now</button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="site-footer section-padding bg-dark" id="contact">
+            <div class="container ">
+                <div class="row">
+
+                    <div class="col-lg-5 me-auto col-12" >
+                        <h5 class="mb-lg-4 mb-3 " style="color: white;">Time  Available</h5>
+
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex">
+                                Sunday : Unavailable
+                            </li>
+
+                            <li class="list-group-item d-flex">
+                                Monday - Firday
+                                <span>8:00 AM - 3:30 PM</span>
+                            </li>
+
+                            <li class="list-group-item d-flex">
+                                Saturday
+                                <span>10:30 AM - 5:30 PM</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 col-12 my-4 my-lg-0">
+                        <h5 class="mb-lg-4 mb-3" style="color: white;">Contact</h5>
+
+                        <p><a href="mailto:nidhimish005@gmail.com">nidhimish005@gmail.com</a><p>
+
+                        <p>250 Central Ave, Newark, NJ 07103</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-12 ms-auto">
+                        <h5 class="mb-lg-4 mb-3" style="color: white;">Socials</h5>
+
+                        <ul class="social-icon">
+                            <li><a href="#" class="social-icon-link bi-facebook"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-twitter"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+
+                            <li><a href="#" class="social-icon-link bi-youtube"></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-12 ms-auto mt-4 mt-lg-0">
+                        <p class="copyright-text">Copyright © Nidhi 
+                        <br><br>Design: <a href="">Nidhi Rajesh Mishra</a></p>
+                    </div>
+
+                </div>
+            </section>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/scrollspy.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+
+    </body>
+</html>
