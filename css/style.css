@@ -862,8 +862,8 @@ strong {
     bottom: 0;
     left: 0;
     color: White;
-    max-width: 100px;
-    margin: 20px auto;
+    max-width: 200px;
+    margin: 0px auto;
   }
 
   .reviews-carousel .owl-nav .owl-prev,
