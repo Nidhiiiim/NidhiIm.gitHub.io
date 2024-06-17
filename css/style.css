@@ -114,7 +114,10 @@ a:hover {
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
-
+.experience {
+            text-align: center;
+            margin-top: 5px;
+        }
 /*---------------------------------------
   CUSTOM LINK               
 -----------------------------------------*/
