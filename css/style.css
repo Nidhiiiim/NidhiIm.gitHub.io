@@ -824,6 +824,7 @@ strong {
 
   .hero .container {
     height: inherit;
+    width: auto !important;
   }
 
   .heroText {
@@ -836,8 +837,8 @@ strong {
   }
 
   .featured-circle {
-    width: 320px;
-    height: 320px;
+    width: 320px auto;
+    height: 320px auto;
   }
 }
 
@@ -847,7 +848,7 @@ strong {
   }
 
   .animated-info {
-    min-width: 150px;
+    min-width: 125px;
   }
 
   .featured-circle {
@@ -862,7 +863,7 @@ strong {
     bottom: 0;
     left: 0;
     color: White;
-    max-width: 200px;
+    max-width: 100px;
     margin: 0px auto;
   }
 
