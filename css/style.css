@@ -847,7 +847,7 @@ strong {
   }
 
   .animated-info {
-    min-width: 125px;
+    min-width: 150px;
   }
 
   .featured-circle {
@@ -861,6 +861,7 @@ strong {
     top: 0;
     bottom: 0;
     left: 0;
+    color: White;
     max-width: 100px;
     margin: 20px auto;
   }
