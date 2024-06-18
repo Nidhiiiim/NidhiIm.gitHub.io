@@ -260,6 +260,7 @@ strong {
   position: relative;
   overflow: hidden;
   height: 580px;
+  width: auto !important;
 }
 
 .heroText {
